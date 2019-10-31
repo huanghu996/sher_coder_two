@@ -1,0 +1,52 @@
+.main {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bar {
+    height: 3px;
+    width: 800px;
+    background-color: red;
+    margin: 50px auto;
+}
+
+.index {
+    height: 70px;
+}
+
+.music {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.updategg {
+    position: fixed;
+    bottom: 0;
+    z-index: 998;
+    animation: updateggmove ease 10s infinite alternate;
+    -webkit-animation: updateggmove ease 10s infinite alternate;
+}
+
+@keyframes updateggmove {
+    from {
+        transform: translate(0, 0);
+    }
+    
+    to {
+        transform: translate(1200px, 0);
+    }
+}
+
+@-webkit-keyframes updateggmove {
+    from {
+        transform: translate(0, 0);
+    }
+    
+    to {
+        transform: translate(1200px, 0);
+    }
+}
