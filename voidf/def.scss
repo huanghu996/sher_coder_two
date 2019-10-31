@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "mini-wakuwaku";
+    src: url("fnt/mini-wakuwaku-webfont.woff") format("woff"), url("fnt/mini-wakuwaku-webfont.woff2") format("woff2"), url("fnt/mini-wakuwaku-webfont.otf") format("embedded-opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "nishiki-teki";
+    src: url("fnt/RationalInteger.ttf") format("truetype");
+}
+
+$wkwk: mini-wakuwaku;
+$nk: nishiki-teki;
+#f {
+    position: flex;
+    font: 400% $wkwk;
+    color: #FFF;
+}
+
+#c {
+    position: flex;
+    font: 400% $nk;
+    color: #FFF;
+}
+
+canvas {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -9999;
+}
