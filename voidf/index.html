@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+
+<head>
+    <title>TestPage</title>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="apple-touch-icon" href="logo.png" />
+    <link rel="apple-touch-startup-image" href="startup.png" />
+
+    <script src="js/jquery.js"></script>
+    <script src="js/maid.js"></script>
+    <script src="js/Copied_Tone.js"></script>
+
+    <link rel="stylesheet" href="def.css" />
+</head>
+
+<body>
+    <!-- mdh5纯手写太累了我能不能纯后端（ 
+    人家的网页osu代码我看不懂，咕了
+    -->
+    <center>
+        <div id="f"><span>G</span><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span></div>
+        <div id="c"><br><br>原生js做了琴键，<del>没时间搞图了</del><br>键盘&nbsp;asdfghjkl;'&nbsp;白键<br>wetyiop&nbsp;黑键<br>减号和等号可以改变频率</div>
+    </center>
+    <canvas></canvas>
+
+
+</body>
+<script type="text/javascript">
+    var c = $("canvas").get(0);
+    var cxt = c.getContext("2d");
+    cxt.fillStyle = "#000000";
+    cxt.fillRect(0, 0, 23333, 23333);
+</script>
+
+</html>
