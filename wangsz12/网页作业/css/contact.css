@@ -1,0 +1,13 @@
+.main {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.bar {
+    height: 3px;
+    width: 800px;
+    background-color: red;
+    margin: 50px auto;
+}

@@ -1,0 +1,79 @@
+body {
+    background-image: url("../image/background.png")
+}
+
+.top-index {
+    height: 80px;
+}
+
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.topnav ul {
+    border: 2px solid #FFFFDF;
+    border-radius: 18px 18px 18px 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFDF;
+    line-height: 40px;
+    font-family: "Microsoft YaHei","微软雅黑";
+}
+
+.topnav li {
+    float: left;
+    margin-right: 50px;
+}
+
+.topnav li span,
+.topnav li a {
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 70px;
+    text-decoration: none;
+}
+
+.topnav li span:hover,
+.topnav li a:hover {
+    cursor: default;
+    color: #FF2D2D;
+}
+
+.topnav p a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF4C1;
+    min-width: 160px;
+    box-shadow: 0px 6px 8px 0px #8E8E8E;
+    padding: 16px 20px;
+    z-index: 1;
+    border: 2px solid #FFF4C1;
+    border-radius: 10px 10px 10px 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.nav-dropdown :hover .nav-dropdown-content {
+    display: block;
+}
