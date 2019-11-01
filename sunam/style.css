@@ -1,0 +1,133 @@
+body{
+    background-image:linear-gradient(135deg,rgba(255,228,225,0),rgba(255,228,225,1));
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+}
+.big-box{
+    width:600px;
+    height:700px;
+    margin:auto;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.header{
+    width:940px;
+    margin:auto;
+    background-color: white;
+}
+.logo{
+    padding-left:250px;
+}
+img{
+    height:61px;
+    float:left;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+}
+.li1{
+    float:right;
+}
+.a1{
+    text-align: center;
+    padding:20px 16px;
+    color:#CC9933;
+    display:block;
+}
+.a1:hover{
+    background-color: whitesmoke;
+    color:#FFCC99;
+    transition:all 0.5s;
+}
+.a1:active{
+    background-color:#DEB887;
+    color:white;
+    transition:all 0.5s;
+}
+.li2{
+    float:right;
+}
+.li2{
+    color:#CC9933;
+}
+.dropbtn{
+    text-align: center;
+    padding:14px 16px;
+    color:#CC9933;
+    font-size:16px;
+    display:block;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    background-color: white;
+}
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color:#FFDAB9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color:white;
+    padding:12px 16px;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #DEB887;
+    transition: all 0.5s;
+}
+.show{
+    display: block;
+}
+.a2{
+    text-align: center;
+    padding:14px 16px;
+    color:#CC9933;
+    display:block;
+}
+.a2:hover{
+    color:#FFCC99;
+}
+.a2:active{
+    border-bottom:2px solid #FFCC99;
+}
+#big-box2{
+    margin:auto;
+    width:290px;
+    position: relative;
+    top:20px;
+}
+.li3{
+    display:inline-block;
+    background:white;
+    border-radius:8px;
+}
+ul.li3 li{
+    display:inline;
+} 
+ul.li3 li a{
+    color:#CC9933;
+    float:left;
+    padding:8px 16px;
+}
+ul.li3 li a:hover{
+    background-color:#E9967A;
+    color:white;
+    transition:all 0.3s;
+}
+ul.li3 li a:active{
+    background-color:#CC9933;
+    color:white;
+}
