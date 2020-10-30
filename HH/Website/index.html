@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./index.css" rel="stylesheet" type="text/css">
+        <title>中国美色 黄鹄</title>
+        <div class="nav">
+                <div class="logo"><img src="./logo.png"/></div>
+        </div>
+        <meta charset="utf-8">
+        <script src="jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <div class="hibox">
+            <div class="zhong">
+                <img src="./ltx.png"/>
+            </div>
+            <div class="zhong1">
+                <img src="./zhongguomeise.png"/>
+            </div>
+        </div>
+        <div style="text-align: center;color:aliceblue;width: 100%; margin: 5px auto;position: absolute;top:360px;">大美山河</div>
+        <div class="main">
+            <div class="mian-top">
+                <div class="zs" style="background-image: url(./zi.jpg);"></div>
+                <div class="zs" style="background-image: url(./qing.jpg);"></div>
+                <div class="zs" style="background-image: url(./zhu.jpg);"></div>
+                <div class="zs" style="background-image: url(./cai.jpg);"></div>
+            </div>
+            <div class="main-left">
+                <div class="colorteam"></div>
+                <div class="key">
+                    <div class="key1">
+                        #EE879B #484D64 #369C92 #CAD682
+                    </div>
+                </div>
+            </div>
+            <div class="bar">
+					<input type="text" class="img-x" id="img_x" value="" style="display:none">
+                    <input type="text" class="img-y" id="img_y" value="" style="display:none">
+                    <span id="rgb_val">点击下方的颜色即可显示rgba</span>
+            </div>
+            <div class="main-top">
+                <div class="circular"  onmousedown="getClickPos(event);">
+                    <img src="ys.jpg" alt="" id="cur_xb" style="cursor: crosshair;">
+                </div>
+                <canvas id="canvas" style="display: none;"></canvas>
+                    <script type="text/javascript" src="index.js"></script>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="foot1" style="width: 400px;">©2020 HuangHu</div>
+            </div>
+        </div>
+    </body>
+</html>

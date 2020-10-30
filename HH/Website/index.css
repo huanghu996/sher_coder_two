@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.head{
+    background-color:33FFCC;
+}
+.nav{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-color:#ee3f4d;
+    width:100%;
+    height: 44px;
+    padding: 0px 0px;
+}
+.logo{
+    height: 44px;
+    background-color:#ee3f4d;
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%,0);
+
+}
+.nav2{
+    margin-left: 100px;
+}
+.sz{
+    margin: 0px auto;
+    width: 60px;
+    font-size: 2em;
+}
+span{
+    float:left;
+    width: 1026px;
+    height: 44px;
+    text-align:center;
+    line-height:44px;
+    background-color:#894e54;
+}
+body{
+    background-color: #5c2223;
+}
+.hibox{
+    position: relative;
+    top: 44px;
+    width:100%;
+    height:300px;
+    margin:0 auto;
+    margin-top:0px;
+    margin-bottom: 10px;
+    background-color:#c02c38;
+
+}
+.main{
+    position: absolute;
+    top:400px;
+    left: 50%;
+    transform:translate(-50%,0);
+    width: 1060px;
+    height: 500px;
+}
+.main-left{
+    float:left;
+    width: 1030px;
+    margin: 10px auto;
+    margin-left: 5px;
+    background-color:#4c1f24;
+}
+.foot{
+    position: fixed;
+    top:96%;
+    width: 100%;
+    background-color:#4c1f24;
+    height: 30px;
+    text-align: center;
+}
+.foot1{
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+    height: 200px;
+    color: blanchedalmond;
+}
+
+.zhong{
+    margin:0px auto;
+    text-align: center;
+}
+.zhong1{
+    left: 50%;
+    transform:translate(-140px,0);
+    width:30px;
+    top:0px;
+    position: absolute;
+}
+.colorteam{
+    height: 300px;
+    width: 800px;
+    margin: 30px auto;
+    background-image: url(./ct.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main-top{
+    width: 1040px;
+    height: 900px;
+}
+.zs{
+    margin: 0 5px;
+    width: 250px;
+    height: 444px;
+    background-color: blanchedalmond;
+    float: left;
+    background-size: contain;
+}
+.key{
+    position: absolute;
+    top:500px;
+    text-align: center;
+    width: 100px;
+    margin: 0px auto;
+    margin-left: 600px;
+}
+.key1{
+    color: blanchedalmond;
+    font-size: 30px;
+    line-height: 65px;
+}
+.bar{
+    color: blanchedalmond;
+}
